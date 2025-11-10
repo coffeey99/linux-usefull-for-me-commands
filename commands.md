@@ -4,6 +4,7 @@ A collection of commands and configurations I use daily since I started learning
 
 # System info
 
+```bash
 uname -a
 lsb_release -a
 hostnamectl
