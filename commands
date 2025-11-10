@@ -56,4 +56,22 @@ Hotkey + left mouse key
 # GUI resize window
 Hotkey + right mouse key
 
+# Generate public and private key
+ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/id_ed25519
+-t = type
+-C = comment
+-f = file path
+# show public key
+cat ~/.ssh/id_ed25519.pub
+# check/verify key
+ssh-keygen -lf ~/.ssh/id_ed25519.pub
+# change file permission for public and private key
+chmod 600 ~/.ssh/id_ed25519
+chmod 644 ~/.ssh/id_ed25519.pub
+
+
+
+
+
+
 This list grows as I learn more about Linux — it’s my daily quick reference
