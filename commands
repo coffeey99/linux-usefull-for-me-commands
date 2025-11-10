@@ -1,53 +1,84 @@
-# System info
-uname -a
+<h1>🧠 My Linux Commands & Daily Configurations</h1>
+
+<p>A collection of commands and configurations I use daily since I started learning Linux.</p>
+
+<hr>
+
+<h2>💻 System info</h2>
+
+<pre><code>uname -a
 lsb_release -a
 hostnamectl
+</code></pre>
 
-# File & directory operations
-ls -ali or ls -lih
+<h2>📁 File & Directory Operations</h2>
+
+<pre><code>ls -ali or ls -lih
 cd /path/to/dir
 cp source.txt destination.txt
 mv oldname.txt newname.txt
 rm -rf /path/to/file_or_folder
 mkdir new_folder
 touch newfile.txt
+</code></pre>
 
-# Viewing and editing
-cat filename.txt
+<h2>📝 Viewing and Editing</h2>
+
+<pre><code>cat filename.txt
 less filename.txt
 nano filename.txt
 vim filename.txt
+</code></pre>
 
-# Permissions
-chmod +x script.sh
-chmod 644 scriph.sh
+<h2>🔐 Permissions</h2>
+
+<pre><code>chmod +x script.sh
+chmod 644 script.sh
 chown user:group file.txt
+</code></pre>
 
-# Update system
-sudo apt update && sudo apt upgrade
+<h2>⚙️ System Updates</h2>
 
-# Manage services
-sudo systemctl status ssh
+<pre><code>sudo apt update && sudo apt upgrade
+</code></pre>
+
+<h2>🧩 Manage Services</h2>
+
+<pre><code>sudo systemctl status ssh
 sudo systemctl start ssh
-sudo systemctl enable ss
+sudo systemctl enable ssh
+</code></pre>
 
-# View running processes
-top
+<h2>📊 View Running Processes</h2>
+
+<pre><code>top
 htop
 ps aux | grep process_name
+</code></pre>
 
-# Check network info
-ip a
+<h2>🌐 Network Info</h2>
+
+<pre><code>ip a
 ping google.com
 netstat -tulnp
 ss -tulpen
 curl ifconfig.me
+</code></pre>
 
-# Connect to remote server
-ssh user@host
+<h2>🔗 Connect to Remote Server</h2>
 
-# GUI move windows
-Hotkey +  left mouse key
-# GUI resize window
+<pre><code>ssh user@host
+</code></pre>
+
+<h2>🪟 GUI Shortcuts</h2>
+
+<pre><code># Move windows
+Hotkey + left mouse key
+
+# Resize window
 Hotkey + right mouse key
+</code></pre>
 
+<hr>
+
+<p>🧾 <strong>Note:</strong> This list grows as I learn more about Linux — it’s my daily quick reference.</p>
