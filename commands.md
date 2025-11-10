@@ -3,9 +3,9 @@
 A collection of commands and configurations I use daily since I started learning Linux.
 
 # System info
-```uname -a
-lsb_release -a
-hostnamectl
+'uname -a'
+'lsb_release -a'
+'hostnamectl'
 
 # File & directory operations
 ls -ali or ls -lih
