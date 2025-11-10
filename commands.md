@@ -8,9 +8,10 @@ A collection of commands and configurations I use daily since I started learning
 uname -a
 lsb_release -a
 hostnamectl
+```
 
 # File & directory operations
-
+```bash
 ls -ali or ls -lih
 cd /path/to/dir
 cp source.txt destination.txt
@@ -18,38 +19,51 @@ mv oldname.txt newname.txt
 rm -rf /path/to/file_or_folder
 mkdir new_folder
 touch newfile.txt
+```
 
 # Viewing and editing
 
+```bash
 cat filename.txt
 less filename.txt
 nano filename.txt
 vim filename.txt
+```
 
 # Permissions
+```bash
 chmod +x script.sh
 chmod 644 script.sh
 chown user:group file.txt
+```
 
 # Update system
+```bash
 sudo apt update && sudo apt upgrade
+```
 
 # Manage services
+```
 sudo systemctl status ssh
 sudo systemctl start ssh
 sudo systemctl enable ssh
+```
 
 # View running processes
+```bash
 top
 htop
 ps aux | grep process_name
+```
 
 # Check network info
+```bash
 ip a
 ping google.com
 netstat -tulnp
 ss -tulpen
 curl ifconfig.me
+```
 
 # Connect to remote server
 ssh user@host
