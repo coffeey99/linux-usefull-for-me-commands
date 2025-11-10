@@ -46,5 +46,8 @@ curl ifconfig.me
 # Connect to remote server
 ssh user@host
 
-
+# GUI move windows
+Hotkey +  left mouse key
+# GUI resize window
+Hotkey + right mouse key
 
