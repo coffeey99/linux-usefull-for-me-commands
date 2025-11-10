@@ -66,15 +66,22 @@ curl ifconfig.me
 ```
 
 # Connect to remote server
+```bash
 ssh user@host
+```
 
 # GUI move windows
+```
 Hotkey + left mouse key
+```
 
 # GUI resize window
+```bash
 Hotkey + right mouse key
+```
 
 # Generate public and private key
+```bash
 ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/id_ed25519
 -t = type
 -C = comment
@@ -86,7 +93,7 @@ ssh-keygen -lf ~/.ssh/id_ed25519.pub
 # change file permission for public and private key
 chmod 600 ~/.ssh/id_ed25519
 chmod 644 ~/.ssh/id_ed25519.pub
-
+```
 
 
 
